@@ -12,7 +12,7 @@ import grails.persistence.Entity
 @Entity
 class User {
 
-    static mapping = 'mongo'
+    static mapWith = 'mongo'
 
     String username
     String email
